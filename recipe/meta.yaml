@@ -26,10 +26,6 @@ requirements:
   host:
     - icu   # [not win]
     - cctools  # [osx]
-test:
-  commands:
-    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
-    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
 about:
   home: http://xerces.apache.org/xerces-c/
