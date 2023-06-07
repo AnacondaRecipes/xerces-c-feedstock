@@ -24,8 +24,8 @@ requirements:
     - libtool # [not win]
     - clang  # [osx]
   host:
-    - icu   # [not win]
-    - cctools  # [osx]
+    - icu {{ icu }}  # [not win]
+    - cctools 949.0.1  # [osx]
 
 about:
   home: https://xerces.apache.org/xerces-c/
