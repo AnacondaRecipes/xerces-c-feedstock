@@ -24,7 +24,7 @@ requirements:
     - libtool # [not win]
     - clang  # [osx]
   host:
-    - icu {{ icu }}  # [not win]
+    - icu 73  # [not win]
     - cctools 949.0.1  # [osx]
 
 about:
