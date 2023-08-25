@@ -9,7 +9,7 @@ source:
   sha256: 3d8ec1c7f94e38fee0e4ca5ad1e1d9db23cbf3a10bba626f6b4afa2dedafe5ab
 
 build:
-  number: 0
+  number: 1
   run_exports:
     # changes SO names at minor rev
     - {{ pin_subpackage('xerces-c', max_pin='x.x') }}
@@ -24,8 +24,8 @@ requirements:
     - libtool # [not win]
     - clang  # [osx]
   host:
-    - icu   # [not win]
-    - cctools  # [osx]
+    - icu 73  # [not win]
+    - cctools 949.0.1  # [osx]
 
 about:
   home: https://xerces.apache.org/xerces-c/
@@ -43,6 +43,3 @@ extra:
     - gillins
     - groutr
     - ocefpaf
-  skip-lints:
-    - missing_license_url
-    - missing_doc_source_url
