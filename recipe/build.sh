@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export CFLAGS="${CFLAGS} -isysroot ${SDKROOT:-$CONDA_BUILD_SYSROOT}"
+
 # Get an updated config.sub and config.guess
 cp -r ${BUILD_PREFIX}/share/libtool/build-aux/config.* ./config
 
