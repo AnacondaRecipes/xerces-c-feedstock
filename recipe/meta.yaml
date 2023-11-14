@@ -26,6 +26,9 @@ requirements:
   host:
     - icu 73  # [not win]
     - cctools 949.0.1  # [osx]
+    - libcurl
+  run:
+    - libcurl
 
 about:
   home: https://xerces.apache.org/xerces-c/
