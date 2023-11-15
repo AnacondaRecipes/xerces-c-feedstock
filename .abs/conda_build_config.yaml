@@ -5,3 +5,7 @@ MACOSX_SDK_VERSION:        # [osx and x86_64]
 
 CONDA_BUILD_SYSROOT:
   - /opt/MacOSX10.10.sdk        # [osx and x86_64]
+perl:
+  - 5.26      # [not (osx and arm64)]
+  - 5.34.0    # [osx and arm64]  
+
