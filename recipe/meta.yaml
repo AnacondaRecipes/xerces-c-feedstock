@@ -26,10 +26,8 @@ requirements:
     - libtool # [not win]
   host:
     - icu {{ icu }}  # [not win]
-    - libnsl {{ libnsl }}  # [linux]
   run:
     - icu  # [not win]
-    - libnsl  # [linux]
 
 about:
   home: https://xerces.apache.org/xerces-c
