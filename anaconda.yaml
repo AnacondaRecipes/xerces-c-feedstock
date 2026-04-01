@@ -1,0 +1,5 @@
+anaconda_config_version: 1
+upstream_sources:
+  - webpage:
+      url: http://www.apache.org/dist/xerces/c/3/sources/
+      regex: xerces-c-([\d.]+)\.tar\.gz
